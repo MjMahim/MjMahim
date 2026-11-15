@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b4a2c"/>
+      <stop offset="1" stop-color="#0f6b3f"/>
+    </linearGradient>
+    <pattern id="stripes" width="120" height="300" patternUnits="userSpaceOnUse">
+      <rect width="60" height="300" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#g)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#stripes)"/>
+  <!-- pitch markings -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2.5">
+    <rect x="24" y="24" width="1152" height="252" rx="6"/>
+    <line x1="860" y1="24" x2="860" y2="276"/>
+    <circle cx="860" cy="150" r="70"/>
+    <rect x="1056" y="80" width="120" height="140"/>
+    <rect x="1130" y="115" width="46" height="70"/>
+  </g>
+  <circle cx="860" cy="150" r="5" fill="#ffffff" fill-opacity="0.3"/>
+  <!-- agent network -->
+  <g stroke="#f6c343" stroke-opacity="0.75" stroke-width="2">
+    <line x1="790" y1="105" x2="925" y2="120"/>
+    <line x1="790" y1="105" x2="845" y2="215"/>
+    <line x1="925" y1="120" x2="845" y2="215"/>
+    <line x1="925" y1="120" x2="1010" y2="190"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="3">
+    <circle cx="790" cy="105" r="13" fill="#2a78d6"/>
+    <circle cx="925" cy="120" r="13" fill="#eb6834"/>
+    <circle cx="845" cy="215" r="13" fill="#1baf7a"/>
+    <circle cx="1010" cy="190" r="9" fill="#9b4dca"/>
+  </g>
+  <text x="64" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Monjurul Islam Mahim</text>
+  <rect x="66" y="150" width="120" height="6" rx="3" fill="#f6c343"/>
+  <text x="64" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#e3f1e8">AI agents · Machine learning · Python</text>
+  <text x="64" y="240" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#a9d4b9">Student at LUT University, Finland</text>
+</svg>
